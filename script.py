@@ -7,9 +7,9 @@ from datetime import datetime, timezone
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Constants
-API_KEY = "pk_1b9c50a231e1f64878d1b4858167211a55"  # Replace with your API key
-SEGMENT_ID = "SNKMx7"  # Replace with your Klaviyo segment ID
-SEGMENT_NAME = "Segment Triggered Event"  # Replace with your Klaviyo segment name
+API_KEY = "KLAVIYO_PRIVATE_KEY"  # Replace with your API key
+SEGMENT_ID = "KLAVIYO_SEGMENT_ID"  # Replace with your Klaviyo segment ID
+SEGMENT_NAME = "Segment_Triggered_Event"  # Replace with your Klaviyo segment name
 CACHE_FILE = "cache.json"
 
 def fetch_profiles():
